@@ -100,6 +100,8 @@ DATABASES = {
     )
 }
 
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FeelBots.settings')
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
